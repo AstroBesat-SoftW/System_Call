@@ -1,0 +1,128 @@
+2024-12-18 16:04:19,908 - INFO - Sistem Ýzleme Baþlatýldý
+2024-12-18 16:04:19,925 - INFO - Ýzleme Aralýðý: 10 saniye
+2024-12-18 16:04:19,929 - INFO - --- Sistem Bilgileri ---
+2024-12-18 16:04:20,946 - INFO - CPU Kullanýmý: 0.0%
+2024-12-18 16:04:20,950 - INFO - RAM Kullanýmý: 76.6% (4.51 GB / 5.88 GB)
+2024-12-18 16:04:20,954 - INFO - Disk Kullanýmý: 97.9% (232.62 GB / 237.68 GB)
+2024-12-18 16:04:20,969 - INFO - Gönderilen Veri: 2.30 MB
+2024-12-18 16:04:20,974 - INFO - Alýnan Veri: 10.37 MB
+2024-12-18 16:04:22,502 - INFO - En Çok Kaynak Kullanan Ýþlemler:
+2024-12-18 16:04:22,507 - INFO -   PID: 8916, Ad: explorer.exe, CPU: 0.0%, RAM: 7.7%
+2024-12-18 16:04:22,512 - INFO -   PID: 1612, Ad: Creative Cloud UI Helper.exe, CPU: 0.0%, RAM: 5.6%
+2024-12-18 16:04:22,517 - INFO -   PID: 3124, Ad: WhatsApp.exe, CPU: 0.0%, RAM: 4.5%
+2024-12-18 16:04:22,521 - INFO -   PID: 4184, Ad: MsMpEng.exe, CPU: 0.0%, RAM: 4.0%
+2024-12-18 16:04:22,526 - INFO -   PID: 10000, Ad: PhoneExperienceHost.exe, CPU: 0.0%, RAM: 3.0%
+2024-12-18 16:04:22,532 - INFO -   PID: 11052, Ad: Adobe Desktop Service.exe, CPU: 0.0%, RAM: 2.7%
+2024-12-18 16:04:22,536 - INFO -   PID: 3308, Ad: Creative Cloud.exe, CPU: 0.0%, RAM: 2.6%
+2024-12-18 16:04:22,541 - INFO -   PID: 12268, Ad: msedge.exe, CPU: 0.0%, RAM: 2.1%
+2024-12-18 16:04:22,545 - INFO -   PID: 2536, Ad: MemCompression, CPU: 0.0%, RAM: 1.9%
+2024-12-18 16:04:22,550 - INFO -   PID: 7192, Ad: dwm.exe, CPU: 0.0%, RAM: 1.9%
+2024-12-18 16:04:22,555 - INFO - ------------------------
+2024-12-18 16:04:32,573 - INFO - --- Sistem Bilgileri ---
+2024-12-18 16:04:33,588 - INFO - CPU Kullanýmý: 0.2%
+2024-12-18 16:04:33,594 - INFO - RAM Kullanýmý: 76.2% (4.48 GB / 5.88 GB)
+2024-12-18 16:04:33,599 - INFO - Disk Kullanýmý: 97.9% (232.62 GB / 237.68 GB)
+2024-12-18 16:04:33,609 - INFO - Gönderilen Veri: 2.31 MB
+2024-12-18 16:04:33,614 - INFO - Alýnan Veri: 10.38 MB
+2024-12-18 16:04:34,128 - INFO - En Çok Kaynak Kullanan Ýþlemler:
+2024-12-18 16:04:34,133 - INFO -   PID: 0, Ad: System Idle Process, CPU: 786.8%, RAM: 0.0%
+2024-12-18 16:04:34,137 - INFO -   PID: 6876, Ad: pythonw.exe, CPU: 4.8%, RAM: 0.4%
+2024-12-18 16:04:34,141 - INFO -   PID: 7192, Ad: dwm.exe, CPU: 1.6%, RAM: 1.9%
+2024-12-18 16:04:34,146 - INFO -   PID: 2536, Ad: MemCompression, CPU: 0.4%, RAM: 1.9%
+2024-12-18 16:04:34,150 - INFO -   PID: 8916, Ad: explorer.exe, CPU: 0.3%, RAM: 7.7%
+2024-12-18 16:04:34,154 - INFO -   PID: 1864, Ad: svchost.exe, CPU: 0.3%, RAM: 0.2%
+2024-12-18 16:04:34,159 - INFO -   PID: 4, Ad: System, CPU: 0.2%, RAM: 0.0%
+2024-12-18 16:04:34,163 - INFO -   PID: 7824, Ad: OneDrive.exe, CPU: 0.1%, RAM: 1.9%
+2024-12-18 16:04:34,168 - INFO -   PID: 10324, Ad: pythonw.exe, CPU: 0.1%, RAM: 0.7%
+2024-12-18 16:04:34,173 - INFO -   PID: 3068, Ad: uihost.exe, CPU: 0.1%, RAM: 0.5%
+2024-12-18 16:04:34,179 - INFO - ------------------------
+2024-12-18 16:04:44,188 - INFO - --- Sistem Bilgileri ---
+2024-12-18 16:04:45,221 - INFO - CPU Kullanýmý: 1.0%
+2024-12-18 16:04:45,232 - INFO - RAM Kullanýmý: 76.3% (4.49 GB / 5.88 GB)
+2024-12-18 16:04:45,242 - INFO - Disk Kullanýmý: 97.9% (232.62 GB / 237.68 GB)
+2024-12-18 16:04:45,256 - INFO - Gönderilen Veri: 2.32 MB
+2024-12-18 16:04:45,263 - INFO - Alýnan Veri: 10.39 MB
+2024-12-18 16:04:45,808 - INFO - En Çok Kaynak Kullanan Ýþlemler:
+2024-12-18 16:04:45,817 - INFO -   PID: 0, Ad: System Idle Process, CPU: 792.8%, RAM: 0.0%
+2024-12-18 16:04:45,826 - INFO -   PID: 6876, Ad: pythonw.exe, CPU: 3.9%, RAM: 0.4%
+2024-12-18 16:04:45,833 - INFO -   PID: 7192, Ad: dwm.exe, CPU: 0.5%, RAM: 1.9%
+2024-12-18 16:04:45,842 - INFO -   PID: 10324, Ad: pythonw.exe, CPU: 0.5%, RAM: 0.7%
+2024-12-18 16:04:45,849 - INFO -   PID: 4, Ad: System, CPU: 0.4%, RAM: 0.0%
+2024-12-18 16:04:45,859 - INFO -   PID: 3124, Ad: WhatsApp.exe, CPU: 0.3%, RAM: 4.5%
+2024-12-18 16:04:45,866 - INFO -   PID: 3748, Ad: svchost.exe, CPU: 0.3%, RAM: 0.8%
+2024-12-18 16:04:45,875 - INFO -   PID: 8916, Ad: explorer.exe, CPU: 0.1%, RAM: 7.7%
+2024-12-18 16:04:45,882 - INFO -   PID: 4184, Ad: MsMpEng.exe, CPU: 0.1%, RAM: 3.9%
+2024-12-18 16:04:45,892 - INFO -   PID: 11052, Ad: Adobe Desktop Service.exe, CPU: 0.1%, RAM: 2.7%
+2024-12-18 16:04:45,899 - INFO - ------------------------
+2024-12-18 16:04:55,919 - INFO - --- Sistem Bilgileri ---
+2024-12-18 16:04:57,034 - INFO - CPU Kullanýmý: 0.0%
+2024-12-18 16:04:57,043 - INFO - RAM Kullanýmý: 77.0% (4.52 GB / 5.88 GB)
+2024-12-18 16:04:57,052 - INFO - Disk Kullanýmý: 97.9% (232.62 GB / 237.68 GB)
+2024-12-18 16:04:57,066 - INFO - Gönderilen Veri: 2.33 MB
+2024-12-18 16:04:57,076 - INFO - Alýnan Veri: 10.45 MB
+2024-12-18 16:04:57,608 - INFO - En Çok Kaynak Kullanan Ýþlemler:
+2024-12-18 16:04:57,618 - INFO -   PID: 0, Ad: System Idle Process, CPU: 785.2%, RAM: 0.0%
+2024-12-18 16:04:57,627 - INFO -   PID: 6876, Ad: pythonw.exe, CPU: 3.8%, RAM: 0.4%
+2024-12-18 16:04:57,634 - INFO -   PID: 7192, Ad: dwm.exe, CPU: 2.4%, RAM: 1.9%
+2024-12-18 16:04:57,643 - INFO -   PID: 4, Ad: System, CPU: 1.5%, RAM: 0.0%
+2024-12-18 16:04:57,651 - INFO -   PID: 8916, Ad: explorer.exe, CPU: 0.7%, RAM: 7.7%
+2024-12-18 16:04:57,659 - INFO -   PID: 4184, Ad: MsMpEng.exe, CPU: 0.4%, RAM: 3.9%
+2024-12-18 16:04:57,665 - INFO -   PID: 10324, Ad: pythonw.exe, CPU: 0.4%, RAM: 0.7%
+2024-12-18 16:04:57,675 - INFO -   PID: 11580, Ad: Widgets.exe, CPU: 0.3%, RAM: 0.7%
+2024-12-18 16:04:57,684 - INFO -   PID: 4588, Ad: svchost.exe, CPU: 0.3%, RAM: 0.6%
+2024-12-18 16:04:57,692 - INFO -   PID: 4212, Ad: svchost.exe, CPU: 0.3%, RAM: 0.2%
+2024-12-18 16:04:57,699 - INFO - ------------------------
+2024-12-18 16:05:07,713 - INFO - --- Sistem Bilgileri ---
+2024-12-18 16:05:08,767 - INFO - CPU Kullanýmý: 0.4%
+2024-12-18 16:05:08,777 - INFO - RAM Kullanýmý: 76.8% (4.51 GB / 5.88 GB)
+2024-12-18 16:05:08,786 - INFO - Disk Kullanýmý: 97.9% (232.62 GB / 237.68 GB)
+2024-12-18 16:05:08,800 - INFO - Gönderilen Veri: 2.33 MB
+2024-12-18 16:05:08,810 - INFO - Alýnan Veri: 10.45 MB
+2024-12-18 16:05:09,333 - INFO - En Çok Kaynak Kullanan Ýþlemler:
+2024-12-18 16:05:09,342 - INFO -   PID: 0, Ad: System Idle Process, CPU: 793.1%, RAM: 0.0%
+2024-12-18 16:05:09,351 - INFO -   PID: 6876, Ad: pythonw.exe, CPU: 3.6%, RAM: 0.4%
+2024-12-18 16:05:09,360 - INFO -   PID: 7192, Ad: dwm.exe, CPU: 0.8%, RAM: 1.9%
+2024-12-18 16:05:09,368 - INFO -   PID: 4, Ad: System, CPU: 0.5%, RAM: 0.0%
+2024-12-18 16:05:09,377 - INFO -   PID: 10324, Ad: pythonw.exe, CPU: 0.3%, RAM: 0.7%
+2024-12-18 16:05:09,385 - INFO -   PID: 8916, Ad: explorer.exe, CPU: 0.1%, RAM: 7.7%
+2024-12-18 16:05:09,394 - INFO -   PID: 7736, Ad: node.exe, CPU: 0.1%, RAM: 1.2%
+2024-12-18 16:05:09,403 - INFO -   PID: 14924, Ad: CoreSync.exe, CPU: 0.1%, RAM: 1.0%
+2024-12-18 16:05:09,414 - INFO -   PID: 4024, Ad: MpDefenderCoreService.exe, CPU: 0.1%, RAM: 0.4%
+2024-12-18 16:05:09,430 - INFO -   PID: 1408, Ad: svchost.exe, CPU: 0.1%, RAM: 0.1%
+2024-12-18 16:05:09,441 - INFO - ------------------------
+2024-12-18 16:05:19,454 - INFO - --- Sistem Bilgileri ---
+2024-12-18 16:05:20,471 - INFO - CPU Kullanýmý: 2.3%
+2024-12-18 16:05:20,479 - INFO - RAM Kullanýmý: 76.0% (4.47 GB / 5.88 GB)
+2024-12-18 16:05:20,491 - INFO - Disk Kullanýmý: 97.9% (232.62 GB / 237.68 GB)
+2024-12-18 16:05:20,507 - INFO - Gönderilen Veri: 2.33 MB
+2024-12-18 16:05:20,515 - INFO - Alýnan Veri: 10.45 MB
+2024-12-18 16:05:21,028 - INFO - En Çok Kaynak Kullanan Ýþlemler:
+2024-12-18 16:05:21,042 - INFO -   PID: 0, Ad: System Idle Process, CPU: 792.4%, RAM: 0.0%
+2024-12-18 16:05:21,050 - INFO -   PID: 6876, Ad: pythonw.exe, CPU: 3.9%, RAM: 0.4%
+2024-12-18 16:05:21,060 - INFO -   PID: 7192, Ad: dwm.exe, CPU: 1.5%, RAM: 1.9%
+2024-12-18 16:05:21,067 - INFO -   PID: 2536, Ad: MemCompression, CPU: 1.3%, RAM: 2.2%
+2024-12-18 16:05:21,077 - INFO -   PID: 10324, Ad: pythonw.exe, CPU: 0.5%, RAM: 0.7%
+2024-12-18 16:05:21,086 - INFO -   PID: 11288, Ad: RuntimeBroker.exe, CPU: 0.1%, RAM: 0.6%
+2024-12-18 16:05:21,095 - INFO -   PID: 3068, Ad: uihost.exe, CPU: 0.1%, RAM: 0.5%
+2024-12-18 16:05:21,103 - INFO -   PID: 8916, Ad: explorer.exe, CPU: 0.0%, RAM: 7.7%
+2024-12-18 16:05:21,111 - INFO -   PID: 1612, Ad: Creative Cloud UI Helper.exe, CPU: 0.0%, RAM: 5.6%
+2024-12-18 16:05:21,119 - INFO -   PID: 3124, Ad: WhatsApp.exe, CPU: 0.0%, RAM: 4.4%
+2024-12-18 16:05:21,129 - INFO - ------------------------
+2024-12-18 16:05:31,151 - INFO - --- Sistem Bilgileri ---
+2024-12-18 16:05:32,196 - INFO - CPU Kullanýmý: 1.9%
+2024-12-18 16:05:32,204 - INFO - RAM Kullanýmý: 75.9% (4.47 GB / 5.88 GB)
+2024-12-18 16:05:32,213 - INFO - Disk Kullanýmý: 97.9% (232.62 GB / 237.68 GB)
+2024-12-18 16:05:32,230 - INFO - Gönderilen Veri: 2.45 MB
+2024-12-18 16:05:32,241 - INFO - Alýnan Veri: 10.46 MB
+2024-12-18 16:05:32,747 - INFO - En Çok Kaynak Kullanan Ýþlemler:
+2024-12-18 16:05:32,758 - INFO -   PID: 0, Ad: System Idle Process, CPU: 791.6%, RAM: 0.0%
+2024-12-18 16:05:32,767 - INFO -   PID: 6876, Ad: pythonw.exe, CPU: 3.5%, RAM: 0.4%
+2024-12-18 16:05:32,776 - INFO -   PID: 4184, Ad: MsMpEng.exe, CPU: 1.9%, RAM: 3.7%
+2024-12-18 16:05:32,784 - INFO -   PID: 3124, Ad: WhatsApp.exe, CPU: 1.1%, RAM: 4.5%
+2024-12-18 16:05:32,792 - INFO -   PID: 7192, Ad: dwm.exe, CPU: 1.1%, RAM: 1.9%
+2024-12-18 16:05:32,800 - INFO -   PID: 10324, Ad: pythonw.exe, CPU: 0.8%, RAM: 0.7%
+2024-12-18 16:05:32,808 - INFO -   PID: 11052, Ad: Adobe Desktop Service.exe, CPU: 0.4%, RAM: 2.7%
+2024-12-18 16:05:32,816 - INFO -   PID: 4588, Ad: svchost.exe, CPU: 0.1%, RAM: 0.6%
+2024-12-18 16:05:32,825 - INFO -   PID: 3936, Ad: servicehost.exe, CPU: 0.1%, RAM: 0.6%
+2024-12-18 16:05:32,832 - INFO -   PID: 2216, Ad: svchost.exe, CPU: 0.1%, RAM: 0.5%
+2024-12-18 16:05:32,841 - INFO - ------------------------
