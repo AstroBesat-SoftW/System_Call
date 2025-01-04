@@ -9,4 +9,3 @@ Yani program başlatılmış ardından ise diğer işlemler yapılmış. En son 
 [n]: Sonlandırma işlemi <br><br>
 ![image](https://github.com/user-attachments/assets/369a53ee-3f87-421b-97b1-d2245eeb45fb)
 <br>
-Son görseli atarsam:
