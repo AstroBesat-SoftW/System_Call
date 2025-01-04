@@ -97,7 +97,8 @@ int main() {
     [62] = "kill (Bir sürece sinyal gönderir)",
     [63] = "uname (Sistem hakkında bilgi alır)",
     [257] = "openat (Belirli bir dizinden dosya açar)",
-    [262] = "newfstatat (Dosya durumu sorgular)"
+    [262] = "newfstatat (Dosya durumu sorgular)",
+    [231] = "exit (Bir işlemi sonlandırır)"
 };
 
 
