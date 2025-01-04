@@ -98,7 +98,9 @@ int main() {
     [63] = "uname (Sistem hakkında bilgi alır)",
     [257] = "openat (Belirli bir dizinden dosya açar)",
     [262] = "newfstatat (Dosya durumu sorgular)",
-    [231] = "exit (Bir işlemi sonlandırır)"
+    [231] = "exit (Bir işlemi sonlandırır)",
+    [218] = "rt_sigaction (Bir sinyal için işleyici atar)",
+    [273] = "syncfs (Dosya sistemini senkronize eder)"
 };
 
 
