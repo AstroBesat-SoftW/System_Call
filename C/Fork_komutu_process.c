@@ -5,16 +5,12 @@
 int main() {
     pid_t pid = fork(); // Yeni bir süreç oluşturur
 
-    if (pid == 0) {
-        // Child process
-        char *args[] = {"/bin/ls", "-l", NULL}; // `ls -l` komutunu çalıştırır
-        execve("/bin/ls", args, NULL); // Yeni program başlatılır
-    } else if (pid > 0) {
-        // Parent process
-        printf("Parent process: PID = %d, Child PID = %d\n", getpid(), pid);
+     if (pid > 0) {
+        // ebeveyn  process
+        printf("Anne process: PID = %d, Cocuk PID = %d\n", getpid(), pid);
     } else {
         // Fork hatası
-        perror("Fork failed");
+        
     }
     return 0;
 }
