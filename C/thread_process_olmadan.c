@@ -11,11 +11,16 @@ void timer_function() {
     printf("10 saniye oldu!\n");
 }
 
-// Merhaba Dünya işlemi
-void hello_world_function() {
+// fork işlemi
+void fork_function() {
     for (int i = 0; i < 5; i++) {
         sleep(2);  // 2 saniye bekle
-        printf("Merhaba Dünya! %d. kez\n", i + 1);
+        pid_t pid = fork(); // Yeni bir süreç oluşturur
+
+     if (pid > 0) {
+        // ebeveyn  process
+        printf("Anne process: PID = %d, Cocuk PID = %d\n", getpid(), pid);
+    } 
     }
 }
 
@@ -24,7 +29,7 @@ int main() {
     timer_function();
 
     // Merhaba Dünya işlemini başlat
-    hello_world_function();
+    fork_function();
 
     printf("Tum islemler tamamlandi.\n");
     return 0;
