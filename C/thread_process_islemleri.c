@@ -13,27 +13,32 @@ void* timer_function(void* arg) {
     return NULL;
 }
 
-// Merhaba Dünya işlemi
-void* hello_world_function(void* arg) {
+// fork işlemi
+void* fork_function(void* arg) {
     for (int i = 0; i < 5; i++) {
         sleep(2);  // 2 saniye bekle
-        printf("Merhaba Dünya! %d. kez\n", i + 1);
+        pid_t pid = fork(); // Yeni bir süreç oluşturur
+
+     if (pid > 0) {
+        // ebeveyn  process
+        printf("Anne process: PID = %d, Cocuk PID = %d\n", getpid(), pid);
+    } 
     }
     return NULL;
 }
 
 int main() {
-    pthread_t timer_thread, hello_thread;
+    pthread_t timer_thread, fork_thread;
 
     // Sayaç thread'ini başlat
     pthread_create(&timer_thread, NULL, timer_function, NULL);
 
     // Merhaba Dünya thread'ini başlat
-    pthread_create(&hello_thread, NULL, hello_world_function, NULL);
+    pthread_create(&fork_thread, NULL, fork_function, NULL);
 
     // Thread'lerin tamamlanmasını bekle
     pthread_join(timer_thread, NULL);
-    pthread_join(hello_thread, NULL);
+    pthread_join(fork_thread, NULL);
 
     printf("Tum islemler tamamlandi.\n");
     return 0;
