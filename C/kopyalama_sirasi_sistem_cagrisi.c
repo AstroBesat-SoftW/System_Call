@@ -85,3 +85,104 @@ int main() {
 
     return 0;
 }
+
+
+/* deneme 
+#include <stdio.h>
+#include <sys/ptrace.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
+#include <sys/user.h>
+#include <sys/syscall.h>
+#include <fcntl.h>
+#include <string.h>
+#include <errno.h>
+
+#ifndef ORIG_RAX
+#ifdef __x86_64__
+#define ORIG_RAX 8 * ORIG_RAX
+#else
+#define ORIG_RAX 15
+#endif
+#endif
+
+void copy_file() {
+    FILE *src, *dest;
+    char buffer[1024];
+    size_t bytes;
+
+    src = fopen("ahmet.txt", "r");
+    if (src == NULL) {
+        perror("Kaynak dosya açılamadı");
+        fprintf(stderr, "Hata: %s\n", strerror(errno));
+        return;
+    }
+
+    dest = fopen("ahmet_kopyalanan.txt", "w");
+    if (dest == NULL) {
+        perror("Hedef dosya açılamadı");
+        fclose(src);
+        return;
+    }
+
+    while ((bytes = fread(buffer, 1, sizeof(buffer), src)) > 0) {
+        fwrite(buffer, 1, bytes, dest);
+    }
+
+    fclose(src);
+    fclose(dest);
+}
+
+int main() {
+    pid_t child;
+    long orig_rax;
+    int status;
+    struct user_regs_struct regs;
+
+    child = fork();
+
+    if (child == 0) {
+        // Çocuk işlem (trace edilen işlem)
+        ptrace(PTRACE_TRACEME, 0, NULL, NULL);
+        raise(SIGSTOP);  // Çocuğu beklet, izleyici başlatılana kadar
+
+        // Kopyalama işlemi esnasında sistem çağrıları izlenecek
+        copy_file();
+        exit(0);
+    } else {
+        // Ana işlem (izleyici)
+        const char *syscall_names[512] = {NULL};
+        syscall_names[0] = "read";
+        syscall_names[1] = "write";
+        syscall_names[2] = "open";
+        syscall_names[3] = "close";
+        syscall_names[257] = "openat";
+        syscall_names[62] = "kill";
+        syscall_names[60] = "exit";
+
+        waitpid(child, &status, 0);  // Çocuğu bekle, başlatılana kadar
+        ptrace(PTRACE_SYSCALL, child, NULL, NULL);  // İzlemeyi başlat
+
+        while (1) {
+            wait(&status);  // Çocuğun sistem çağrısını bekle
+            if (WIFEXITED(status))  // Çıkış yaptıysa döngüden çık
+                break;
+
+            orig_rax = ptrace(PTRACE_PEEKUSER, child, sizeof(long) * ORIG_RAX, NULL);
+            printf("Sistem çağrısı: %s (%ld)\n",
+                   (orig_rax >= 0 && orig_rax < 512 && syscall_names[orig_rax]) ?
+                   syscall_names[orig_rax] : "Bilinmeyen",
+                   orig_rax);
+
+            ptrace(PTRACE_SYSCALL, child, NULL, NULL);  // Devam et
+        }
+    }
+
+    return 0;
+}
+
+
+
+
+*/
