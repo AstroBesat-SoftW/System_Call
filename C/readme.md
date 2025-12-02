@@ -1,1 +1,1 @@
-C dilinde versiyon
+C dilinde versiyon linux
