@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
-//linux için 
+// linux için ola kısmı
 int main() {
     pid_t pid = fork(); 
 
